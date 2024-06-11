@@ -1,0 +1,45 @@
+.nav-bar{
+height: 50px;
+width:100%;
+background-color: royalblue;
+color:white;
+padding: 10px;
+line-height: 40px;
+font-family: cursive;
+position: sticky;
+top:0px;
+
+
+}
+.container{
+    height: 700px;
+    width: 100%;
+    background-color: powderblue;
+   
+   
+   
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    /* position: relative; */
+   
+    top: 100px;
+    
+    
+}
+
+h2{
+    position: absolute;
+    bottom:0px;
+    top:100px;
+    left: 300px;
+}
+
+button{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    position:fixed;
+}

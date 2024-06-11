@@ -1,0 +1,34 @@
+h1{
+   
+    background-color: rgb(187, 240, 223);
+}
+.btn{
+    background-color: rgb(58, 209, 134);
+    
+}
+a{
+    color: rgb(14, 92, 101);
+}
+button{
+    color: red;
+}  
+body{
+    background-color:bisque;
+    background-image: url("oclass.jpg");
+    
+}
+.main-container{
+    color: rgb(73, 87, 60);
+}
+
+.demo{
+    height: 900px;
+    width: 100%;
+    background-image: url("aksad.png");
+    /* background-repeat: no-repeat; */
+    /*background-size: cover;
+    background-attachment: fixed;
+    color: rgb(15, 14, 14);
+    background-position: bottom ; */
+    background: fixed no-repeat top #ab7373 url('aksad.png');
+}

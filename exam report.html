@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header, .info, .report, .overall {
+            margin-bottom: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+        }
+        .header .details {
+            flex-grow: 1;
+        }
+        .header .details h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header .details p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .info, .report {
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+        .info table, .report table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .info th, .info td, .report th, .report td {
+            text-align: left;
+            padding: 8px;
+        }
+        .info th {
+            width: 150px;
+        }
+        .report th {
+            text-align: center;
+        }
+        .report th, .report td {
+            border: 1px solid #ccc;
+        }
+        .progress {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .progress-bar {
+            flex-grow: 1;
+            height: 20px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-right: 10px;
+        }
+        .progress-bar div {
+            height: 100%;
+        }
+        .progress-bar div.english {
+            width: 80%;
+            background: #1E90FF;
+        }
+        .progress-bar div.hindi {
+            width: 56.67%;
+            background: #32CD32;
+        }
+        .progress-bar div.maths {
+            width: 50%;
+            background: #FFD700;
+        }
+        .overall {
+            text-align: center;
+        }
+        .overall .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: conic-gradient(#1E90FF 72%, #f0f0f0 72%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="path/to/photo.jpg" alt="Student Photo">
+            <div class="details">
+                <h1>classX</h1>
+                <p>198, 2nd Floor, Raghuleela Mall, Kandivali West, Mumbai 400067.</p>
+            </div>
+        </div>
+        <div class="info">
+            <table>
+                <tr>
+                    <th>Student</th>
+                    <td>Lata Mangeshkar</td>
+                </tr>
+                <tr>
+                    <th>Interval</th>
+                    <td>Nov 01, 2023 - Dec 27, 2023</td>
+                </tr>
+                <tr>
+                    <th>Ad Date</th>
+                    <td>Nov 01, 2023</td>
+                </tr>
+                <tr>
+                    <th>Course</th>
+                    <td>Class 8(State Board)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="report">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>English</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="english"></div>
+                                </div>
+                                80
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hindi</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="hindi"></div>
+                                </div>
+                                56.67
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Maths</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="maths"></div>
+                                </div>
+                                50
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Science</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="maths"></div>
+                                </div>
+                                50
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>History</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="maths"></div>
+                                </div>
+                                50
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Geography</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="maths"></div>
+                                </div>
+                                50
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="overall">
+            <div class="circle">
+                72%
+            </div>
+            <p>OVERALL</p>
+        </div>
+    </div>
+</body>
+</html>

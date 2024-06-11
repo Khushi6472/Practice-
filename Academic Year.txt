@@ -1,0 +1,8 @@
+Academic Year
+Select academic year for which student is getting enrolled. 
+
+
+Program Selection
+
+Select the type of program: By Default it will be regular for Current year, but if you'll change academic year to current year combo, next year combo, or last year combo then select programs from the dropdown which were previously added in the program master section e.g. Class 9th+10th . 
+

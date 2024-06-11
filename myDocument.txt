@@ -1,0 +1,217 @@
+HOME:
+
+Search Bar: Located at the top of the screen, labeled "Search Student."
+Usage: Users can search students by NAME and ACADEMIC YEAR, with the current academic year selected by default.
+
+PUNCHES:
+
+Filter Records:
+Select the desired month and year in the filter section.
+Click on "Get Punches" to fetch the biometric punch data for the specified period.
+
+Search Records:
+Use the search bar to find specific records by entering relevant keywords (e.g., branch name, date, punch timings).
+
+Review Data:
+The data table will populate with the retrieved biometric punch records, displaying the relevant details in each column.
+If no data is available, as shown in the image, the table will indicate that no records were found.
+
+FEES:
+
+To add fee records in the system, follow these steps:
+
+Adding Payment Records:
+Click on + Payments and Schedules.
+A popup box will appear. Enter the following details:
+Amount, Status,
+Payment Mode (such as cash, card, bank transfer),
+Notes ( e.g., transaction details, notes, cheque numbers),
+Payment Date
+
+Status:
+Scheduled: For creating or scheduling an installment.
+Cleared: When the student has paid the fees.
+Bounced: When a cheque is bounced.
+
+Select the bank where you want to add the fees if applicable.
+If using GST, select the GST option.
+
+Invoices:
+Invoice 1: Basic invoice without GST.
+Invoice 2: Tax invoice with GST.
+Both invoices include:
+Student's course details
+Total course fee
+Discounted fees
+Net Payable amount
+
+Statements:
+The first installment statement shows all cleared and uncleared installments.
+
+
+Generating and Printing Receipts:
+To generate a fee receipt, click on the printer icon.
+To show the total fees on the receipt, click on the Show Total Fees option on the left-hand side.
+Print receipts, invoices, and statements by clicking on the Print button.
+To download as a PDF, select Save as PDF in the destination option.
+
+Scheduling Auto Installments:
+Click on Unscheduled Balance.
+Select the following:
+First installment date
+Number of installments
+Date interval
+Edit details (dates, payment modes, amounts) as needed.
+If using GST, select the GST option from the popup box.
+Save the details to schedule all installments.
+
+Deleting Payment Records:
+To delete a cleared payment record:
+Change its status to Scheduled.
+Click on the Delete button to delete the payment record.
+By following these steps, you can effectively manage the fee records, invoices,receipts and installments for students.
+
+
+
+
+SCHEDULE PLANNER :
+
+Scheduling: Allows users to schedule weekly lectures and exams.
+Re-scheduling: Lectures can be rescheduled for the next weeks using the "RE-SCHEDULE" button.
+
+Filter Option:
+Filtering: Users can filter lectures and exams based on batch, course, academic year, branch, or week (current week, last week, next week).
+
+Scheduling Process:
+Select Date: Click on the date section of the respective batch.
+Add Lecture/Exam: Click on the "+" icon and fill in all the details in the pop-up. To schedule exams, select the exam option in the pop-up box.
+Verify Overlaps: Use this option to prevent overlapping schedules, such as multiple lectures at the same time for a teacher or class. 
+If overlaps are detected but you still wish to proceed, click on the "Add Anyways" button to schedule the lecture or exam.
+
+
+Managing Scheduled Events:
+Edit: After scheduling, clicking on the edit icon allows users to mark attendance or mark exams.
+Delete: To delete a scheduled lecture or exam, click on the available delete option.
+
+
+
+
+NEW ADMISSION PAGE:
+
+Basic Detail
+Full Name: Enter student's full name.
+Gender:  Select student's gender (e.g., Male, Female).
+Admission Date: Select the date of admission.
+Date of Birth: Enter student's date of birth.
+
+
+Contact Detail
+Father: Enter father's contact number.
+Mother:Enter mother's contact number.
+Student: Enter student's contact number.
+Other: Enter Additional contact number .
+Email id: Enter an email address.
+Address: Enter Student's Full address.
+
+
+Class Detail
+Branch: Select the branch In which Student is Taking Admission.
+Course: Select course In which Student Is Taking Admission.
+Subjects: Select subjects Accordingly, If you want to choose Specific Subjects unselect the Subjects which are not required .
+Institute: Select the School / College of the Student.
+Last Year Result: Enter last year's academic result of Student.2
+
+Academic Detail: 
+Admission Types
+1. Regular Admission: Single year admission
+2. Combo Admission: 2 or 3 years combined admission
+
+Academic Year
+For Regular Admission:
+Select academic year:
+e.g. : Current Year, Last Year, Next Year 
+
+For Combo Admission:
+Select academic year:
+e.g. Current Year Combo, Next Year Combo, Last Year Combo
+
+Program Selection
+For Regular Admission:
+Select the type of program: Regular
+
+For Combo Admission:
+Select the program type from the dropdown:
+e. g. 9th+10th Std , 8th+9th+10th Std
+
+Status: Select the admission status
+1. Enquiry: For Students who are taking demo lectures or any enquiries which are not yet converted into admissions. 
+2. Enquiry to admission: For Students who have converted their admission from enquiry to admission. 
+3. Direct Admission: For Students who are taking direct admission.
+4. Admission Retention:   
+
+Fees
+Enter the course fees amount.
+
+Discount
+To give a discount to a student, click on the Calculator icon available on the right-hand side of the fees section.
+A pop-up screen will open.
+Enter the Discount Percent/Discount Amount.
+Click on Update Fee.
+The total net fee of the student will now be visible.
+
+Save Details 
+Now Click on the  "Save Details"  button to submit the form after filling out all the necessary information.
+
+Note: Fields marked with an asterisk (*) are mandatory and must be filled out to complete the form.
+
+
+Associated Links: 
+1. 
+
+
+
+
+Student Profile
+
+Profile Section:
+
+Profile Picture: Displays the student's photograph.
+Name: Anuj Jha
+Admission Type: Direct Admission
+Upload Button : You can upload Student's Profile picture by using Upload Button.
+Delete Button: To delete profile picture of the Student we use Delete Button 
+Quick Links
+Punches: Track attendance or log entries.
+Fees: View and manage fee-related information.
+Exam Report: Access examination results and performance reports.
+Attendance: View attendance records.
+Assignment Report: Review assignment submissions and grades.
+Icard: Generate or manage student ID cards.
+Main Tabs
+Edit: Edit student details.
+Admission: Admission-related information.
+Batches: Batch assignments.
+Device: Manage devices assigned to the student.
+Delete: Option to delete the student profile.
+Student Details
+Full Name: Anuj Jha
+Biometric Id: 6
+Admission Date: 01-03-2024
+Gender: Male
+Date of Birth: 01-04-1996
+Contact Details
+Father Contact No: 9893202330
+Mother Contact No: 9752788391
+Other Contact No: 9022286658
+Student Contact No: 9821388373
+Email Id: anuj@classbot.in
+Address: 198, 2nd Floor, Raghuleela Mega Mall, Kandivali West, Mumbai 400067.
+Parent GST
+Business Name: CLASSBOT
+Business Address: 198, 2nd Floor, Raghuleela Mall, Kandivali West, Mumbai, Maharashtra 400067.
+GSTIN: 27AAGCH8207F1ZM
+Action Button
+Save Changes: Save any modifications made to the profile.
+
+
+165179786

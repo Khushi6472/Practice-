@@ -1,0 +1,34 @@
+HOME : 
+The main screen, "Home," features a search bar labeled "Search Student" where users can search for students by their NAME and ACADEMIC YEAR (with the current academic year selected by default).
+
+Academics:
+
+Planner - 
+Used for overall Lecture/Exam planning and scheduling. 
+By using planner option you can schedule weekly lectures and exams. 
+you can reschedule same lectures for the next weeks too By using RE-SCHEDULE button. 
+By using filter option we can filter lectures/exams according to batch, course,academic year , branch or week wise(current week, last week, next week).
+To schedule any lecture we have to click on date section of respective batch -> click on + icon -> fill all the details available on the pop-up . to schedule exams select exam option in popup box. while adding schedules there's one option verify overlaps which is used for prevention from overlapping like at a same time if there's another lecture or any teacher have 2 or 3 lectures . or there are 2 lectures in same class so to avoid all these issues there's overlaping buttton . if you still want to schedule lecture even after overlaps you can click on add anyways button to add it . after scheduling lecture/exams if you will click on edit icon then mark attendance/mark exam option will open. to delete scheduled lecture/exam click on the delete option available there. 
+
+
+fees :
+to add fees records you have to click on + payments and schedules. after clicking a popup box will open where you have to enter amount select payment mode notes if any (transaction details,  notes, cheque numbers) , payment date and status(scheduled, cleared and bounced). scheduled is used when you are creating any installment or scheduling an installment. cleared is used when student is paying the fees. and bounced is used when any cheque is bounced . you can seelct bank where you want to add fees. if you are using gst then you can use gst option .  there are 2 invoices invoice 1 is basic invoice without gst . and Invoice 2 is tax invoice . both the invoices contain Students course detail, total course fee, discounted fees . and there are 2 statement also in first installment all the cleared and uncleared installments are visible. to generate fees receipt click on the printer icon . to show total fees in fee receipt click on  show total fees option  available on left hand side. you can print receipts, invoices and statements by clicking on print button or to download as pdf file click on save as pdf in destination option. For scheduling auto installments click on unscheduled balance . select first installment date, number of installments and date interval and if you want to edit any of the details(dates, payment modes, amount) you can edit according to your need and if you are using gst then you can select gst option from the popup box and after saving it all the installments will be scheduled. to delete any payment record which is cleared so first you have tot make its status scheduled and then after clicking on delete button you can delete payment records . 
+
+Punches - Possibly for tracking attendance via biometric punches.
+Lectures - To manage and view lecture schedules.
+Exams - For managing exam schedules and details.
+Absentees - To keep track of students who are absent.
+Birthdays - A section to note student or staff birthdays.
+Pdf Notes - Likely for sharing PDF notes with students.
+Video Lec - For sharing video lectures.
+Assignments - To manage and distribute assignments.
+Announcements - For making announcements to students and staff.
+
+
+
+There are two kind of admission 
+1. Regular Admission : Single year admission 2. Combo Admission: 2 or 3 years combined admission. 
+
+Academic Year: For Regular Admission Select academic year (e.g., Current Year,Last Year, Next Year) And For Combo Admission Select Academic year (Current year combo, Next year Combo, Last year Combo).
+Program: For regular Admission select the type of program As regular And For Combo admission Select the program type from the dropdown (e.g. 9th+10th Std, 8th+9th+10th Std).
+

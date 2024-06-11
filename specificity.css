@@ -1,0 +1,9 @@
+.fav{
+    color: red;
+    font-weight: bold;
+}
+ul#summer-drinks li{
+    color: rgb(239, 9, 47);
+    font-weight: 900;
+    background: orange;
+}

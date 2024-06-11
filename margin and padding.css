@@ -1,0 +1,22 @@
+h1{
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    background-color: green;
+    color: white;
+    width: 600px;
+    border: 10px solid rgba(57, 56, 57,0.5);
+    padding: 20px;
+    outline: 5px solid yellow;
+    font-family: cursive;
+}
+button{
+    border: none ;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+}

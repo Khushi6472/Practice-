@@ -1,0 +1,15 @@
+h1{
+    border: 4px dotted rgb(5, 16, 50);
+
+}
+.container1{
+    height:200px;
+    width: 100%;
+    background-color: #f9dada;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(28, 28, 28);
+    border-bottom-style: double;
+    border-bottom-color: aqua;
+    border-radius: 10px;
+}

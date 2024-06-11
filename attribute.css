@@ -1,0 +1,9 @@
+li[class~="a"]{
+    color: rgb(213, 68, 24);
+ 
+ }
+
+ *{
+    color: magenta;
+    list-style: square;
+ }
